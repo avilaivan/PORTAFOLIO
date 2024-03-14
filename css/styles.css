@@ -1,0 +1,273 @@
+/* styles.css */
+body, html {
+  height: 100%;
+  font-family: 'MiFuente', sans-serif;
+  overflow-x: hidden;
+}
+
+.perfecto, .BOXING, .others, .REDESIGN, .programas, .row2 {
+  max-width: 100%;
+}
+
+.perfecto{
+  height: 100%; /* 100% de la altura de la ventana */
+  background: url('../media/fondoperfecto.jpg') center/cover no-repeat; /* Imagen de fondo y degradado */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.contenido{
+  overflow-x: hidden;
+  margin-left: 15px;
+}
+img, video{
+  max-width: 100%;
+}
+.videosA{
+  border-radius: 20px;
+  box-shadow: 0 0 60px rgba(255, 255, 255, 0.438);
+  transition: transform 0.3s ease; 
+}
+.videosA:hover{
+  transform: scale(1.10);
+}
+.videosT{
+  border-radius: 20px;
+  box-shadow: 0 0 60px rgba(255, 0, 247, 0.614); 
+  transition: transform 0.3s ease;
+}
+.videosT:hover{
+  transform: scale(1.10);
+}
+.videosF{
+  border-radius: 20px;
+  box-shadow: 0 0 60px rgba(0, 255, 153, 0.603);
+  transition: transform 0.3s ease; 
+}
+.videosF:hover{
+  transform: scale(1.10);
+}
+.videosE{
+  border-radius: 20px;
+  box-shadow: 0 0 60px rgba(242, 255, 0, 0.488); 
+  transition: transform 0.3s ease;
+}
+.videosE:hover{
+  transform: scale(1.10);
+}
+.BOXING{
+  height: 100%;
+  background: url('../media/fondo\ boxing.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.ryan{
+  border-radius: 10px;
+  box-shadow: 0 0 80px rgba(242, 255, 0, 0.51);
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+.ryan:hover{
+  transform: scale(1.15)
+}
+.ali{
+  border-radius: 10px;
+  box-shadow: 0 0 80px red;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+
+}
+.ali:hover{
+  transform: scale(1.15);
+}
+.floyd{
+  border-radius: 10px;
+  box-shadow: 0 0 80px blue;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+  }
+  .floyd:hover{
+    transform: scale(1.15);
+  }
+  .gervonta{
+    border-radius: 10px;
+    box-shadow: 0 0 80px green;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+  }
+  .gervonta:hover{
+    transform: scale(1.15);
+  }
+
+  .others{
+    height: 100%;
+    background: url('../media/fondoothers.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+.JAMES{
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgb(255, 221, 0);
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+.JAMES:hover{
+  transform: scale(1.15);
+}
+.pato{
+  border-radius: 10px;
+  box-shadow: 0 0 60px red;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+.pato:hover{
+  transform: scale(1.15);
+}
+.belligold{
+  border-radius: 10px;
+  box-shadow: 0 0 60px blue;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+.belligold:hover{
+  transform: scale(1.15);
+}
+.neymar{
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgb(0, 255, 170);
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+.neymar:hover{
+  transform: scale(1.15);
+}
+.REDESIGN{
+  height: 100%; /* 100% de la altura de la ventana */
+  background: url('../media/FONDO\ BLACK.jpg') center/cover no-repeat; /* Imagen de fondo y degradado */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.programas{
+  height: 100%; /* 100% de la altura de la ventana */
+  background: url('../media/FONDO\ WHITE.jpg') center/cover no-repeat; /* Imagen de fondo y degradado */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+
+}
+.row2 {
+  height: 100%; /* 100% de la altura de la ventana */
+  background: url('../media/fondobrutal.png') center/cover no-repeat; /* Imagen de fondo y degradado */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% auto;
+}
+.imgperfect{
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 80px rgba(8, 208, 5, 0.422); 
+    transition: transform 0.3s ease;
+  
+}
+.imgperfect:hover{
+  transform: scale(1.15);
+}
+.imgperfect2{
+  border-radius: 15px;
+  box-shadow: 0 0 80px rgba(8, 208, 5, 0.422);
+  transition: transform 0.3s ease; 
+}
+.imgperfect2:hover{
+  transform: scale(1.15);
+}
+.imagenes{ 
+  border-radius: 15px;
+  box-shadow: 0 0 60px rgba(255, 0, 0, 0.636); 
+  transition: transform 0.3s ease;
+}
+.imagenes:hover{
+  transform: scale(1.10);
+}
+.imagenes2{
+  margin-top: -172px;
+  border-radius: 20px;
+  box-shadow: 0 0 60px rgba(255, 0, 0, 0.607); 
+  transition: transform 0.3s ease;
+}
+.imagenes2:hover{
+  transform: scale(1.10);
+}
+@font-face {
+  font-family: 'MiFuente'; /* Puedes darle el nombre que quieras */
+  src: url('../font/StretchPro.otf') format('truetype'); /* Ajusta la ruta y el formato según tu fuente */
+  font-weight: normal;
+  font-style: normal;
+}
+.h1{
+  font-family: 'MiFuente', sans-serif;
+}
+.textoP{
+  color: black;
+}
+.pro{
+ margin-right: 30px;
+ transition: transform 0.3s ease;
+
+}
+.pro:hover{
+  transform: scale(1.2);
+  
+}
+.pro2{
+ margin-right: 25px;
+ transition: transform 0.3s ease;
+}
+.pro2:hover{
+  transform: scale(1.2);
+}
+.content {
+  text-align: center;
+  color: #fff; /* Color de texto blanco para contrastar con el fondo */
+}
+
+/* Puedes agregar estilos adicionales para las imágenes y el video según sea necesario */
+img, video {
+  max-width: 100%; /* Ajusta el tamaño máximo para que se adapten al ancho del contenedor */
+  margin: 10px; /* Espacio entre las imágenes y el video */
+}
+
+.navbar-custom {
+  background-color: black; /* Fondo negro */
+}
+
+/* Estilo para el enlace "HOME" en la barra de navegación */
+.navbar-custom .navbar-brand {
+  color: #fff !important; /* Texto blanco */
+  transition: color 0.3s; /* Transición de color durante 0.3 segundos */
+}
+
+/* Cambiar el color del enlace cuando pasa el cursor sobre él */
+.navbar-custom .navbar-brand:hover {
+  color: #007bff !important; /* Texto azul */
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+img, video {
+  max-width: 100%;
+}
+
